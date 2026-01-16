@@ -114,7 +114,7 @@ export default function App() {
 
       {inWater && (
         <div style={{ position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: 100, textAlign: 'center' }}>
-          <h1 style={{ color: '#00ffff', fontSize: '3.5rem', textShadow: '0 0 20px #00ffff', animation: 'fade 1s infinite alternate' }}>WELCOME TO THE CORE</h1>
+          <h1 style={{ color: '#00ffff', fontSize: '3.5rem', textShadow: '0 0 20px #00ffff', animation: 'fade 1s infinite alternate' }}>WELCOME TO THE Lowtter</h1>
         </div>
       )}
 
@@ -124,7 +124,7 @@ export default function App() {
         <pointLight position={[10, 20, 10]} intensity={2} color="#00ffff" />
         <Stars radius={100} depth={50} count={5000} factor={4} fade speed={1} />
 
-        <Suspense fallback={<Html center style={{color:'white'}}>Entering X-Planet...</Html>}>
+        <Suspense fallback={<Html center style={{color:'white'}}>Entering LOWTTER-Planet...</Html>}>
           <ScrollControls pages={6} damping={0.2}>
             <JourneyManager setInWater={setInWater} />
             <mesh rotation-x={-Math.PI / 2} position={[0, -5, 0]}>
