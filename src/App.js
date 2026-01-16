@@ -114,7 +114,7 @@ export default function App() {
 
       {inWater && (
         <div style={{ position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: 100, textAlign: 'center' }}>
-          <h1 style={{ color: '#00ffff', fontSize: '3.5rem', textShadow: '0 0 20px #00ffff', animation: 'fade 1s infinite alternate' }}>WELCOME TO THE Lowtter</h1>
+          <h1 style={{ color: '#00ffff', fontSize: '3.5rem', textShadow: '0 0 20px #00ffff', animation: 'fade 1s infinite alternate' }}>WELCOME TO Lowtter</h1>
         </div>
       )}
 
